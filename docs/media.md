@@ -11,7 +11,13 @@ tags:
     ![Linux Screenshot](img/screenshots/screenshot-linux.png)
     ```
     ![Linux Screenshot](img/screenshots/screenshot-linux.png)
-    
+
+    ``` 
+    # Modern browsers provide native support for lazy-loading images through the loading=lazy directive, which degrades to eager-loading in browsers without support   
+    ![Image title](https://dummyimage.com/600x400/){ loading=lazy }
+    ```
+    ![Image title](https://dummyimage.com/600x400/){ loading=lazy }
+
     ```
     <img src="../img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
     ```

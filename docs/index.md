@@ -1,6 +1,6 @@
 # Start
 
-Welcome to my [MkDocs-Material demo project on GitHub](https://github.com/bergmann-max/MkDocs-Material-Demo)! This repository serves as a way for me to gain experience with the MkDocs documentation generator, specifically using the Material theme.
+Welcome to my [MkDocs-Material Demo project](https://github.com/bergmann-max/MkDocs-Material-Demo) on GitHub! This repository serves as a way for me to gain experience with the MkDocs documentation generator, specifically using the Material theme.
 
 The project includes a basic demo site built with MkDocs-Material, showcasing various features of the theme such as navigation menus, customizable site search, and responsive design. I've also included some sample Markdown files to demonstrate how to structure and format content in a way that works well with MkDocs-Material.
 
@@ -35,7 +35,7 @@ If you need to install pip for the first time, download [get-pip.py](https://boo
 
 1. Install the necessary packages using pip:
 
-        $ pip install mkdocs mkdocs[i18n] mkdocs-material mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-table-reader-plugin
+        $ pip install mkdocs-material mkdocs[i18n] mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-table-reader-plugin
 
 1.  Clone the repository:
 
