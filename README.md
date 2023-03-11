@@ -35,7 +35,7 @@ If you need to install pip for the first time, download [get-pip.py](https://boo
 
 1. Install the necessary packages using pip:
 
-        $ pip install mkdocs mkdocs[i18n] mkdocs-material mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-table-reader-plugin
+        $ pip install mkdocs-material mkdocs[i18n] mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-table-reader-plugin
 
 1.  Clone the repository:
 
