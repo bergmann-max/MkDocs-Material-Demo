@@ -31,7 +31,7 @@ If you need to install pip for the first time, download [get-pip.py](https://boo
 
     $ python get-pip.py
 
-### Installing MkDocs & MkDocs-Material
+### Installing MkDocs w/ MkDocs-Material
 
 1. Install the necessary packages using pip:
 
