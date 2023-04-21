@@ -33,9 +33,9 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for GitHub integrations (i.e. PR comments)
           action: "upload"
           production_branch: "main"
-          app_location: "" # App source code path relative to repository root
+          app_location: "./sites" # App source code path relative to repository root
           api_location: "" # Api source code path relative to repository root - optional
-          output_location: "site" # Built app content directory, relative to app_location - optional
+          output_location: "" # Built app content directory, relative to app_location - optional
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
