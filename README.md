@@ -6,13 +6,7 @@ For full documentation visit
   * [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
   * [Markdown](https://daringfireball.net/projects/markdown)
 
-Demo repository for MkDocs with the Material theme. Demonstrates:
-
-- **Plugins**: privacy, social, tags, search, glightbox, git-revision-date-localized, table-reader
-- **Features**: navigation tabs, instant loading, integrated TOC, code copy, search highlight, dark mode, announce bar, content tooltips, edit link, …
-- **Extensions**: admonitions, mermaid diagrams, emoji, footnotes, tasklists, content tabs, critic markup, code annotations, table sorting
-- **Deployment**: GitHub Actions + `mkdocs gh-deploy` (`astral-sh/setup-uv`) -> GitHub Pages
-- **Versioning**: mike
+Demo repository for MkDocs with the Material theme.
 
 ## Getting started
 
