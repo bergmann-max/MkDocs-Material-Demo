@@ -67,8 +67,7 @@ theme:
 plugins:
     - privacy
     - social
-    - tags:
-          tags_file: tags.md
+    - tags
     - search:
           lang: en
           separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
@@ -90,6 +89,8 @@ plugins:
           type: date
           fallback_to_build_date: true
     - table-reader
+    - blog:
+          blog_dir: blog
 markdown_extensions:
     - pymdownx.snippets:
           auto_append:
@@ -99,10 +100,18 @@ markdown_extensions:
               - name: mermaid
                 class: mermaid
                 format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
     - admonition
     - pymdownx.details
     - tables
     - attr_list
+    - md_in_html
+    - toc:
+          permalink: true
     - pymdownx.emoji:
           emoji_index: !!python/name:material.extensions.emoji.twemoji
           emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -118,6 +127,8 @@ markdown_extensions:
     - pymdownx.tilde
     - pymdownx.tabbed:
           alternate_style: true
+    - pymdownx.arithmatex:
+          generic: true
 extra:
     version:
         provider: mike
@@ -125,3 +136,8 @@ extra:
 extra_javascript:
     - javascripts/tablesort.min.js
     - javascripts/tablesort.js
+    - javascripts/katex.js
+    - https://unpkg.com/katex@0/dist/katex.min.js
+    - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+extra_css:
+    - https://unpkg.com/katex@0/dist/katex.min.css

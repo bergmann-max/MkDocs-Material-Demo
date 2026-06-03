@@ -18,21 +18,23 @@ Demo repository for MkDocs with the Material theme. Demonstrates:
 
 ### Requirements
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/) -- it manages both Python and packages.
+[uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### Setup
 
-1. Clone the repository:
+```bash
+# Clone repository
+git clone git@github.com:bergmann-max/MkDocs-Material-Demo.git
+cd MkDocs-Material-Demo
+```
 
-        $ git clone git@github.com:bergmann-max/MkDocs-Material-Demo.git
+```bash
+# Sync dependencies and start the dev server:
+uv sync
+uv run mkdocs serve
+```
 
-1. Sync dependencies and start the dev server:
-
-        $ cd MkDocs-Material-Demo
-        $ uv sync
-        $ uv run mkdocs serve
-
-1. Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
+Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 ## Project layout
 
