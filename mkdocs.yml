@@ -10,6 +10,8 @@ theme:
     name: material
     custom_dir: overrides
     language: en
+    font:
+        code: Fira Mono
     logo: assets/logo.png
     favicon: assets/favicon.ico
     icon:
