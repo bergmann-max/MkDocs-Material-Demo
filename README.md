@@ -1,5 +1,5 @@
 # MkDocs-Material Demo
-Live demo: <https://bergmann-max.github.io/MkDocs-Material-Demo>
+Live demo: <https://bergmann-max.github.io/zensical-demo>
 
 For full documentation visit
   * [MkDocs](https://www.mkdocs.org)
@@ -18,8 +18,8 @@ Demo repository for MkDocs with the Material theme.
 
 ```bash
 # Clone repository
-git clone git@github.com:bergmann-max/MkDocs-Material-Demo.git
-cd MkDocs-Material-Demo
+git clone git@github.com:bergmann-max/zensical-demo.git
+cd zensical-demo
 ```
 
 ```bash

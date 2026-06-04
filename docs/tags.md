@@ -2,4 +2,7 @@
 
 Following is a list of relevant tags:
 
-<!-- material/tags -->
+- [Formatting](index.md)
+- [Content](index.md)
+- [Media](index.md)
+- [Code](index.md)

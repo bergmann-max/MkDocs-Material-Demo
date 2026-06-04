@@ -1,6 +1,6 @@
 # Start
 
-Welcome to my [MkDocs-Material Demo project](https://github.com/bergmann-max/MkDocs-Material-Demo) on GitHub! This repository serves as a way for me to gain experience with the MkDocs documentation generator, specifically using the Material theme.
+Welcome to my [MkDocs-Material Demo project](https://github.com/bergmann-max/zensical-demo) on GitHub! This repository serves as a way for me to gain experience with the MkDocs documentation generator, specifically using the Material theme.
 
 The project includes a basic demo site built with MkDocs-Material, showcasing various features of the theme such as navigation menus, customizable site search, and responsive design. I've also included some sample Markdown files to demonstrate how to structure and format content in a way that works well with MkDocs-Material.
 
@@ -23,11 +23,11 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/) -- it mana
 
 1. Clone the repository:
 
-        $ git clone git@github.com:bergmann-max/MkDocs-Material-Demo.git
+        $ git clone git@github.com:bergmann-max/zensical-demo.git
 
 1. Sync dependencies and start the dev server:
 
-        $ cd MkDocs-Material-Demo
+        $ cd zensical-demo
         $ uv sync
         $ uv run mkdocs serve
 
@@ -38,4 +38,4 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/) -- it mana
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.    
+        ...       # Other markdown pages, images and other files.
