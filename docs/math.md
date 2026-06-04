@@ -5,7 +5,7 @@ tags:
 
 # Math
 
-[KaTeX](https://katex.org/) is a fast, lightweight library for typesetting mathematical expressions. Material for MkDocs integrates with both KaTeX and [MathJax](https://www.mathjax.org/).
+[KaTeX](https://katex.org/) is a fast, lightweight library for typesetting mathematical expressions. Zensical integrates with both KaTeX and [MathJax](https://www.mathjax.org/).
 
 === "Block syntax"
 

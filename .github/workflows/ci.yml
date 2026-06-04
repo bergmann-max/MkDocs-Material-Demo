@@ -1,4 +1,4 @@
-name: ci 
+name: deploy github pages 
 on:
   push:
     branches:
@@ -17,4 +17,9 @@ jobs:
         with:
           enable-cache: true
       - run: uv sync
-      - run: uv run mkdocs gh-deploy --force
+      - run: uv run zensical build
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          force_orphan: true

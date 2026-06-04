@@ -1,10 +1,9 @@
 # Zensical Demo
 
-Live demo: <https://bergmann-max.github.io/zensical-demo>
+Live demo: <https://bergmann-max.github.io/Zensical-Demo>
 
 For full documentation visit:
 - [Zensical](https://github.com/squidfunk/zensical)
-- [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
 
 Demo repository showcasing the static site generator.
 
@@ -17,7 +16,7 @@ Demo repository showcasing the static site generator.
 ### Setup
 
 ```bash
-git clone git@github.com:bergmann-max/zensical-demo.git
+git clone git@github.com:bergmann-max/Zensical-Demo.git
 cd zensical-demo
 ```
 

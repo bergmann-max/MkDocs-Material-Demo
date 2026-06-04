@@ -54,4 +54,4 @@ The Snippets extension can be used to implement a simple glossary by moving all 
 *[W3C]: World Wide Web Consortium
 ```
 
-It's highly recommended to put the Markdown file containing the abbreviations outside of the docs folder (here, a folder with the name includes is used), as MkDocs might otherwise complain about an unreferenced file. 
+It's highly recommended to put the Markdown file containing the abbreviations outside of the docs folder (here, a folder with the name includes is used), as Zensical might otherwise complain about an unreferenced file. 

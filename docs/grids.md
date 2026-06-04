@@ -17,7 +17,7 @@ Grids arrange blocks into responsive layouts. They come in two flavors: card gri
 
         ---
 
-        Install [`mkdocs-material`](https://pypi.org/project/mkdocs-material/)
+        Install [`zensical`](https://pypi.org/project/zensical/)
         with `pip` and get up and running in minutes
 
         [:octicons-arrow-right-24: Getting started](index.md)
@@ -42,10 +42,10 @@ Grids arrange blocks into responsive layouts. They come in two flavors: card gri
 
         ---
 
-        Material for MkDocs is licensed under MIT and available on
-        [GitHub](https://github.com/squidfunk/mkdocs-material)
+        Zensical is licensed under MIT and available on
+        [GitHub](https://github.com/squidfunk/zensical)
 
-        [:octicons-arrow-right-24: License](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE)
+        [:octicons-arrow-right-24: License](https://github.com/squidfunk/zensical/blob/master/LICENSE)
 
     </div>
     ````
@@ -56,7 +56,7 @@ Grids arrange blocks into responsive layouts. They come in two flavors: card gri
 
         ---
 
-        Install [`mkdocs-material`](https://pypi.org/project/mkdocs-material/)
+        Install [`zensical`](https://pypi.org/project/zensical/)
         with `pip` and get up and running in minutes
 
         [:octicons-arrow-right-24: Getting started](index.md)
@@ -81,10 +81,10 @@ Grids arrange blocks into responsive layouts. They come in two flavors: card gri
 
         ---
 
-        Material for MkDocs is licensed under MIT and available on
-        [GitHub](https://github.com/squidfunk/mkdocs-material)
+        Zensical is licensed under MIT and available on
+        [GitHub](https://github.com/squidfunk/zensical)
 
-        [:octicons-arrow-right-24: License](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE)
+        [:octicons-arrow-right-24: License](https://github.com/squidfunk/zensical/blob/master/LICENSE)
 
     </div>
 

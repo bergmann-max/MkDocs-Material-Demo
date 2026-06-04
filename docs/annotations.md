@@ -101,27 +101,29 @@ Annotations are small clickable markers that expand a tooltip containing arbitra
 === "Code annotations"
 
     ````
-    ``` yaml
-    theme:
-      name: material # (1)!
-      features:
-        - content.code.copy # (2)!
-        - navigation.tabs # (3)!
+    ``` toml
+    [project.theme]
+    variant = "classic" # (1)!
+    features = [
+        "content.code.copy", # (2)!
+        "navigation.tabs", # (3)!
+    ]
     ```
 
-    1.  :material-check: The theme name must be set to `material`.
+    1.  :material-check: The theme variant must be set to `classic`.
     2.  Adds a copy button to all code blocks.
     3.  Renders top-level navigation as tabs.
     ````
 
-    ``` yaml
-    theme:
-      name: material # (1)!
-      features:
-        - content.code.copy # (2)!
-        - navigation.tabs # (3)!
+    ``` toml
+    [project.theme]
+    variant = "classic" # (1)!
+    features = [
+        "content.code.copy", # (2)!
+        "navigation.tabs", # (3)!
+    ]
     ```
 
-    1.  :material-check: The theme name must be set to `material`.
+    1.  :material-check: The theme variant must be set to `classic`.
     2.  Adds a copy button to all code blocks.
     3.  Renders top-level navigation as tabs.
