@@ -19,19 +19,19 @@ tags:
     ![Image title](https://dummyimage.com/600x400/){ loading=lazy }
 
     ```
-    <img src="../img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
+    <img src="img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
     ```
-     <img src="../img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
+     <img src="img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
     
     ```
     <figure>
-     <img src="../img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
+     <img src="img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
       <figcaption>Linux Screenshot</figcaption>
     </figure>
     ```
     
     <figure>
-     <img src="../img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
+     <img src="img/screenshots/screenshot-linux.png" alt="Linux Screenshot" width="400" height="276">
       <figcaption>Linux Screenshot</figcaption>
     </figure>
     
@@ -40,11 +40,11 @@ tags:
     
     ```
     <video width="320" height="240" controls>
-      <source src="../vid/abstract.mp4" type="video/mp4">
+      <source src="vid/abstract.mp4" type="video/mp4">
     </video>
     ```
     <video width="320" height="240" controls>
-      <source src="../vid/abstract.mp4" type="video/mp4">
+      <source src="vid/abstract.mp4" type="video/mp4">
     </video>
     
     ```

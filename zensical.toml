@@ -3,6 +3,18 @@ site_name = "Zensical Demo"
 site_url = "https://bergmann-max.github.io/zensical-demo/"
 site_dir = "public"
 
+extra_javascript = [
+    "javascripts/tablesort.min.js",
+    "javascripts/tablesort.js",
+    "javascripts/katex.js",
+    "https://unpkg.com/katex@0.17.0/dist/katex.min.js",
+    "https://unpkg.com/katex@0.17.0/dist/contrib/auto-render.min.js",
+]
+
+extra_css = [
+    "https://unpkg.com/katex@0.17.0/dist/katex.min.css",
+]
+
 [project.theme]
 variant = "classic"
 custom_dir = "overrides"
@@ -11,6 +23,7 @@ logo = "assets/logo.png"
 favicon = "assets/favicon.ico"
 features = [
     "content.action.edit",
+    "content.code.annotate",
     "content.code.copy",
     "content.tooltips",
     "search.suggest",
@@ -142,15 +155,3 @@ Code = "code"
 [project.extra.version]
 provider = "mike"
 default = "stable"
-
-extra_javascript = [
-    "javascripts/tablesort.min.js",
-    "javascripts/tablesort.js",
-    "javascripts/katex.js",
-    "https://unpkg.com/katex@0.17.0/dist/katex.min.js",
-    "https://unpkg.com/katex@0.17.0/dist/contrib/auto-render.min.js",
-]
-
-extra_css = [
-    "https://unpkg.com/katex@0.17.0/dist/katex.min.css",
-]
