@@ -1,6 +1,7 @@
 ---
 tags:
-  - Reference
+  - Content
+  - Media
 ---
 
 # Grids

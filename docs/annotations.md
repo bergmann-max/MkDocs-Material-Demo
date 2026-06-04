@@ -1,6 +1,7 @@
 ---
 tags:
-  - Reference
+  - Content
+  - Formatting
 ---
 
 # Annotations

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Reference
+  - Content
 ---
 
 === "Admonition"

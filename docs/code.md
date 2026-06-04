@@ -1,6 +1,6 @@
 ---
 tags:
-  - Reference
+  - Code
 ---
 
 # Code

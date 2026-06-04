@@ -1,6 +1,7 @@
 ---
 tags:
-  - Reference
+  - Formatting
+  - Content
 ---
 
 # Tooltips

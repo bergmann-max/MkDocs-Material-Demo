@@ -1,6 +1,7 @@
 ---
 tags:
-  - Reference
+  - Media
+  - Code
 ---
 
 # Diagrams

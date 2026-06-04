@@ -28,6 +28,11 @@ theme:
             quote: fontawesome/solid/quote-left
         repo: fontawesome/brands/github
         edit: material/pencil
+        tag:
+            formatting: material/format-text
+            content: material/card-text
+            media: material/image
+            code: material/code-tags
     features:
         - content.action.edit
         - content.code.copy
@@ -67,7 +72,8 @@ theme:
 plugins:
     - privacy
     - social
-    - tags
+    - tags:
+          tags_hierarchy: true
     - search:
           lang: en
           separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
@@ -130,6 +136,11 @@ markdown_extensions:
     - pymdownx.arithmatex:
           generic: true
 extra:
+    tags:
+        Formatting: formatting
+        Content: content
+        Media: media
+        Code: code
     version:
         provider: mike
         default: stable
