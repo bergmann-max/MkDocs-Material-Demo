@@ -1,12 +1,12 @@
-# MkDocs-Material Demo
-Live demo: <https://bergmann-max.github.io/MkDocs-Material-Demo>
+# Zensical Demo
 
-For full documentation visit
-  * [MkDocs](https://www.mkdocs.org)
-  * [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
-  * [Markdown](https://daringfireball.net/projects/markdown)
+Live demo: <https://bergmann-max.github.io/zensical-demo>
 
-Demo repository for MkDocs with the Material theme.
+For full documentation visit:
+- [Zensical](https://github.com/squidfunk/zensical)
+- [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
+
+Demo repository showcasing the static site generator.
 
 ## Getting started
 
@@ -17,22 +17,20 @@ Demo repository for MkDocs with the Material theme.
 ### Setup
 
 ```bash
-# Clone repository
-git clone git@github.com:bergmann-max/MkDocs-Material-Demo.git
-cd MkDocs-Material-Demo
+git clone git@github.com:bergmann-max/zensical-demo.git
+cd zensical-demo
 ```
 
 ```bash
-# Sync dependencies and start the dev server:
 uv sync
-uv run mkdocs serve
+uv run zensical serve
 ```
 
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 ## Project layout
 
-    mkdocs.yml              # Theme, plugins, extensions, features
+    zensical.toml            # Site config (theme, extensions, features)
     pyproject.toml           # Dependencies (uv)
     .github/workflows/ci.yml # Deploy to GitHub Pages
     overrides/
@@ -44,19 +42,16 @@ Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
         code.md              # Code highlighting & annotations
         diagrams.md          # Mermaid diagrams
         lists.md             # Task lists, definition lists
-        media.md             # Images, video, lightbox
-        tables.md            # CSV table reader + sortable tables
-        tags.md              # Tag index (auto-generated)
+        media.md             # Images, video, GLightbox
+        tables.md            # Markdown & HTML tables, sortable
+        tags.md              # Tag index
+        math.md              # KaTeX math rendering
+        grids.md             # Grid cards layout
+        annotations.md       # Annotation marks
         miscellaneous/       # Admonitions, buttons, footnotes, tooltips, formatting, content tabs
         assets/              # Logo, favicon
-        data/                # CSV data files
-        javascripts/         # Table sort scripts
-        ## License
+        javascripts/         # Table sort, KaTeX init scripts
 
 ## License
 
 [MIT](LICENSE)
-
-## Author
-
-Max Bergmann
