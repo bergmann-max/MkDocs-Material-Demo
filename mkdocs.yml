@@ -3,7 +3,7 @@ site_name: MkDocs Material Demo
 site_url: https://bergmann-max.github.io/MkDocs-Material-Demo/
 repo_url: https://github.com/bergmann-max/MkDocs-Material-Demo
 repo_name: bergmann-max/MkDocs-Material-Demo
-edit_uri: blob/master/docs/
+edit_uri: blob/main/docs/
 site_dir: public
 # leave 'nav' unset for automatic navigation
 theme:
@@ -150,7 +150,7 @@ extra_javascript:
     - javascripts/tablesort.min.js
     - javascripts/tablesort.js
     - javascripts/katex.js
-    - https://unpkg.com/katex@0/dist/katex.min.js
-    - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+    - https://unpkg.com/katex@0.17.0/dist/katex.min.js
+    - https://unpkg.com/katex@0.17.0/dist/contrib/auto-render.min.js
 extra_css:
-    - https://unpkg.com/katex@0/dist/katex.min.css
+    - https://unpkg.com/katex@0.17.0/dist/katex.min.css
