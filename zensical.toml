@@ -1,6 +1,6 @@
 [project]
 site_name = "Zensical Demo"
-site_url = "https://bergmann-max.github.io/zensical-demo/"
+site_url = "https://bergmann-max.github.io/Zensical-Demo/"
 site_dir = "public"
 
 extra_javascript = [

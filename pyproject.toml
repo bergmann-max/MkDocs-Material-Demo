@@ -1,6 +1,6 @@
 [project]
-name = "zensical-demo"
-version = "0.1.0"
+name = "Zensical-Demo"
+version = "0.1.5"
 requires-python = ">=3.10"
 dependencies = [
     "zensical",

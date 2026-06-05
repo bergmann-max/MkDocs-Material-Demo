@@ -124,10 +124,10 @@ tags:
 
 === "Inline code"
     ```
-    <code>$ git clone git@github.com:bergmann-max/zensical-demo.git</code>
+    <code>$ git clone git@github.com:bergmann-max/Zensical-Demo.git</code>
     ```
 
-    <code>$ git clone git@github.com:bergmann-max/zensical-demo.git</code>
+    <code>$ git clone git@github.com:bergmann-max/Zensical-Demo.git</code>
 
 ***
 
