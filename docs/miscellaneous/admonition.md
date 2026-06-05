@@ -20,7 +20,7 @@ tags:
     
 === "Admonition with custom title"
     ```
-    !!! note "Phasellus posuere in sem ut cursushasellus posuere in sem ut cursus"
+    !!! note "Phasellus posuere in sem ut cursus"
     
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
         nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
